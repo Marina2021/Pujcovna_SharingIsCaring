@@ -1,18 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key="polozka" />
+  
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+import Data from "@/assets/Data.js";
+import Kategorie from "@/components/Kategorie.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
+    kategorie: Kategorie
+  },
+
+  data() {
+    return {
+      majitel: Data.majitel,
+      kategorie: Data.kategorie
+    };
   }
-}
+};
 </script>
