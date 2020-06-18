@@ -1,7 +1,7 @@
 <template>
  
   <div id="app">
-    <h1>Data v šabloně s události</h1>
+    <h1>Projekt půjčovna</h1>
     
     <router-view />
 
@@ -17,13 +17,15 @@ import Detail from './components/Detail';
 import Data from './assets/Data';
 import Home from './views/Home';
 import Kategorie from './components/Kategorie';
-
+import Seznam from './components/Seznam';
 
 export default {
   name: 'App',
 
   components: {
-    Detail, Kategorie
+    detail:Detail, 
+    kategorie:Kategorie, 
+    seznam:Seznam
   },
 
   data (){

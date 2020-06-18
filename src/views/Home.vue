@@ -1,6 +1,6 @@
 <template>
   <div>
-    <kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key="polozka" />
+    
   
   </div>
 </template>
@@ -10,11 +10,14 @@
 
 import Data from "@/assets/Data.js";
 import Kategorie from "@/components/Kategorie.vue";
+import Seznam from "@/components/Seznam.vue";
 
 export default {
+
   name: "Home",
   components: {
-    kategorie: Kategorie
+    kategorie:Kategorie,
+    seznam:Seznam,
   },
 
   data() {
