@@ -1,9 +1,10 @@
 <template>
   
 <div>
-<kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key="polozka.id" />
-{{ kategorie }}
 
+ <v-row>
+   <kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key= "polozka.id" />
+ </v-row>
 </div>
 
 </template>

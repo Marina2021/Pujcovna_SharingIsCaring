@@ -1,25 +1,18 @@
 <template>
-  <div>
+  
+    <v-col class="col-4">
+      <img v-bind:src="require(`./../assets/images/groups/${polozka.image}`)" />
 
-   <img v-bind:src="require(`./../assets/images/groups/${polozka.image}`)"/>
-
-<p>{{polozka.name}}</p>
-
-
-  </div>
+      <p>{{polozka.name}}</p>
+    </v-col>
+  
 </template>
 
 <script>
 export default {
-    props:["polozka"]
-
-
-
-}
-
-
+  props: ["polozka"]
+};
 </script>
 
 <style>
-
 </style>
