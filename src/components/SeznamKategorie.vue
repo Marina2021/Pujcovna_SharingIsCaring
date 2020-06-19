@@ -2,6 +2,7 @@
   
 <div>
 <kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key="polozka" />
+{{ kategorie }}
 
 </div>
 
