@@ -1,6 +1,7 @@
 <template>
   <div>
     
+  <seznam/>
   
   </div>
 </template>
