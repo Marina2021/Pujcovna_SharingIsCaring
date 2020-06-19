@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <h1>Projekt půjčovna</h1>
-
-    <router-view />
+      <router-view />
 
     <hlavicka />
     <paticka />
@@ -12,8 +10,8 @@
 </template>
 
 <script>
-import Paticka from "@/components/Footer.vue";
-import Hlavicka from "@/components/Header.vue";
+import Paticka from "@/components/Paticka.vue";
+import Hlavicka from "@/components/Hlavicka.vue";
 
 export default {
   name: "App",
