@@ -1,7 +1,8 @@
 <template>
   <div>
     
-  <seznam/>
+  <seznamKategorie/>
+  
   
   </div>
 </template>
@@ -10,15 +11,14 @@
 // @ is an alias to /src
 
 import Data from "@/assets/Data.js";
-import Kategorie from "@/components/Kategorie.vue";
-import Seznam from "@/components/Seznam.vue";
+import SeznamKategorie from "@/components/SeznamKategorie.vue";
+
 
 export default {
 
   name: "Home",
   components: {
-    kategorie:Kategorie,
-    seznam:Seznam,
+    seznamKategorie: SeznamKategorie,
   },
 
   data() {

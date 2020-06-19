@@ -8,15 +8,13 @@
 </template>
 
 <script>
-import Home from "@/views/Home.vue";
 import Kategorie from "@/components/Kategorie.vue";
 
 export default {
-    
+  props: ['kategorie'],
 
   components: {
-    home: Home,
-    kategorie:Kategorie
+    kategorie: Kategorie,
   },
 
 }
