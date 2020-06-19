@@ -3,24 +3,24 @@
     <h1>Projekt půjčovna</h1>
 
     <router-view />
-    
-    <header/>
-<footer/>
+
+    <hlavicka />
+    <paticka />
     <hr />
     <router-link to="/">Na úvodní stránku</router-link>
   </div>
 </template>
 
 <script>
-import Footer from "@/components/Footer.vue";
-import Header from "@/components/Header.vue";
+import Paticka from "@/components/Footer.vue";
+import Hlavicka from "@/components/Header.vue";
 
 export default {
   name: "App",
 
   components: {
-    footer: Footer,
-    header: Header
+    paticka: Paticka,
+    hlavicka: Hlavicka
   }
 };
 </script>
