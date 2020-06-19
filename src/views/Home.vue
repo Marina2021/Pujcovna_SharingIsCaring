@@ -1,9 +1,7 @@
 <template>
   <div>
-    
-  <seznamKategorie/>
-  
-  
+    <seznamKategorie v-bind:kategorie="kategorie" v-bind:key="kategorie" />
+
   </div>
 </template>
 
@@ -13,12 +11,10 @@
 import Data from "@/assets/Data.js";
 import SeznamKategorie from "@/components/SeznamKategorie.vue";
 
-
 export default {
-
   name: "Home",
   components: {
-    seznamKategorie: SeznamKategorie,
+    seznamKategorie: SeznamKategorie
   },
 
   data() {

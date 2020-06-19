@@ -1,8 +1,10 @@
 <template>
   <div>
-<h3>{{polozka}}</h3>
-<hr/>
-{{polozka.length}}
+
+   <img v-bind:src="require(`./../assets/images/groups/${polozka.image}`)"/>
+
+<p>{{polozka.name}}</p>
+
 
   </div>
 </template>
@@ -11,7 +13,11 @@
 export default {
     props:["polozka"]
 
+
+
 }
+
+
 </script>
 
 <style>

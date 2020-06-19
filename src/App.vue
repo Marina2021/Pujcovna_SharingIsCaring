@@ -1,11 +1,10 @@
 <template>
   <div id="app">
-      <router-view />
-
     <hlavicka />
+    <router-view />
     <paticka />
-    <hr />
-    <router-link to="/">Na úvodní stránku</router-link>
+    
+    
   </div>
 </template>
 

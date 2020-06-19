@@ -1,7 +1,7 @@
 <template>
   
 <div>
-<kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key="polozka" />
+<kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key="polozka.id" />
 {{ kategorie }}
 
 </div>

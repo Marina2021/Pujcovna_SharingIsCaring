@@ -1,5 +1,9 @@
 <template>
-  <div> </div>
+  <div>
+    <router-link to="/">Na úvodní stránku</router-link>
+    <router-link to="/">Na úvodní stránku</router-link>
+    <router-link to="/">Na úvodní stránku</router-link>
+     </div>
 </template>
 
 <script>
