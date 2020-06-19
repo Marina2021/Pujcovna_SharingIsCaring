@@ -3,7 +3,9 @@
     <h1>Projekt půjčovna</h1>
 
     <router-view />
-
+    
+    <header/>
+<footer/>
     <hr />
     <router-link to="/">Na úvodní stránku</router-link>
   </div>
