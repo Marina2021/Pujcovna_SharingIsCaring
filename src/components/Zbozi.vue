@@ -5,35 +5,30 @@
       <div class="d-flex flex-no-wrap justify-space-between">
         <div>
   
-    <v-img
-      class="white--text align-end"
+    <img
+      class="white--text align-end obrazek"
       height="200px"
-      src="/fotky_projekt_DA/elektro/mixer.jpg"
-    >
-      <v-card-title class="headline" v-text="produkt.nazev"></v-card-title>
-    </v-img>
+      v-bind:src="`/fotky_projekt_DA/${produkt.images}`"
+   />
+     
 
-    <v-card-subtitle class="pb-0">{{produkt.nazev}}</v-card-subtitle>
+ <v-card-title class="headline" v-text="produkt.nazev"></v-card-title>
+    
 
     <v-card-text class="text--primary" >
       <div>{{produkt.cena}} Kč/den</div>
 
-      <div>{{produkt.majitel}}</div>
+      <div>{{produkt.mesto}}</div>
     </v-card-text>
 
     <v-card-actions>
-      <v-btn
-        color="orange"
-        text
-      >
-        Share
-      </v-btn>
+      
 
       <v-btn
         color="orange"
         text
       >
-        Explore
+        Detail
       </v-btn>
     </v-card-actions>
   
@@ -57,5 +52,7 @@ export default {
 </script>
 
 <style>
-
+.obrazek{
+  padding:0px;
+}
 </style>
