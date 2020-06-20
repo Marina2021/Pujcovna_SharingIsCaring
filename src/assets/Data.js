@@ -15,12 +15,12 @@ export default {
         { id:12, nazev: "kladivo", kategorie: 4, majitel:2, cena: "20",images:"naradi/kladivo.jpg"},
         { id:13, nazev: "sada nářadi", kategorie: 4, majitel:3, cena: "100",images:"naradi/sada_naradi.jpg"},
         { id:14, nazev: "vrtačka", kategorie: 4, majitel:4, cena: "90",images:"naradi/vrtacka.jpg"},
-        { id:15, nazev: "gumáky", kategorie: 5, majitel:5, cena: "20",images:"obleceni/gumakyjpg"},
+        { id:15, nazev: "gumáky", kategorie: 5, majitel:5, cena: "20",images:"obleceni/gumaky.jpg"},
         { id:16, nazev: "kabát", kategorie: 5, majitel:1, cena: "30",images:"obleceni/kabat.jpg"},
         { id:17, nazev: "oblek", kategorie: 5, majitel:2, cena: "600",images:"obleceni/oblek.jpg"},
         { id:18, nazev: "svatební šaty", kategorie: 5, majitel:3, cena: "1000",images:"obleceni/svatebni_saty.jpg"},
         { id:19, nazev: "diskokoule", kategorie: 6, majitel:3, cena: "200",images:"ostatni/diskokoule.jpg"},
-        { id:20, nazev: "autosedačka", kategorie: 7, majitel:3, cena: "200",images:"autosedacka.jpg"},
+        { id:20, nazev: "autosedačka", kategorie: 7, majitel:3, cena: "200",images:"pro_deti/autosedacka.jpg"},
         { id:21, nazev: "kolo", kategorie: 8, majitel:3, cena: "200",images:"sport/kolo.jpg"},
         { id:22, nazev: "kolobežka", kategorie: 8, majitel:1, cena: "80",images:"sport/kolobezka.jpg"},
         { id:23, nazev: "rotoped", kategorie: 8, majitel:5, cena: "100",images:"sport/rotoped.jpg"},
@@ -31,8 +31,9 @@ export default {
         { id:28, nazev: "bagr", kategorie: 9, majitel:4, cena: "5000",images:"stroje/bagr.jpg"},
         { id:29, nazev: "jeřáb", kategorie: 9, majitel:1, cena: "5000",images:"stroje/jerab.jpg"},
         { id:30, nazev: "sekačka", kategorie: 9, majitel:2, cena: "400",images:"stroje/sekacka.jpg"},
-        { id:31, nazev: "traktorek", kategorie: 9, majitel:3, cena: "400",images:"stroje/traktorek.jpg"},
-
+        { id:31, nazev: "kolotoc", kategorie: 7, majitel:3, cena: "400",images:"pro_deti/kolotoc.jpg"},
+        { id:32, nazev: "traktorek", kategorie: 9, majitel:3, cena: "400",images:"pro_deti/vanicka.jpg"},
+        
 
     ],
 
