@@ -7,8 +7,10 @@
 <script>
 import Zbozi from "@/components/Zbozi.vue";
 import Data from "@/assets/Data.js";
+
+
 export default {
-  props: ["zbozi"],
+  props: ["zbozi", "id"],
   components: {
     zbozi: Zbozi
   },
@@ -19,11 +21,12 @@ export default {
   },
   computed: {
     zobrazZbozi: function() {
-      let zbozi = this.products.filter(product => (product.kategorie === 3));
+      let zbozi = this.products.filter(product => (product.kategorie === this.id));
       return zbozi;
     }
   }
 };
+
 </script>
 
 <style>

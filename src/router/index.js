@@ -21,9 +21,10 @@ Vue.use(VueRouter)
   },
   
     {
-      path: '/zbozi',
+      path: '/zbozi/:id',
       name: 'Zbozi',
       component: SeznamZbozi,
+      props: true
     },
 ]
 
