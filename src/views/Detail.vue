@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-card>
+  <div class="horniOdstup">
+    <v-card >
       <div>
         <!-- <v-avatar class="ma-3" size="64" tile>
         </v-avatar>-->
@@ -32,4 +32,7 @@ export default {
 };
 </script>
 <style>
+.horniOdstup {
+  margin: 40px 20px 20px 20px;
+}
 </style>
