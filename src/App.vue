@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <hlavicka />
-    <router-view class="horniOdstup" />
+    <div class="horniOdstup">
+    <router-view />
+    </div>
  
     
     
