@@ -20,7 +20,7 @@ export default {
         { id:17, nazev: "oblek", kategorie: 5, majitel:2, cena: "600",images:"obleceni/oblek.jpg"},
         { id:18, nazev: "svatební šaty", kategorie: 5, majitel:3, cena: "1000",images:"obleceni/svatebni_saty.jpg"},
         { id:19, nazev: "diskokoule", kategorie: 6, majitel:3, cena: "200",images:"ostatni/diskokoule.jpg"},
-        { id:20, nazev: "autosedačka", kategorie: 7, majitel:3, cena: "200",images:"autosedacka.jpg"},
+        { id:20, nazev: "autosedačka", kategorie: 6, majitel:3, cena: "200",images:"autosedacka.jpg"},
         { id:21, nazev: "kolo", kategorie: 8, majitel:3, cena: "200",images:"sport/kolo.jpg"},
         { id:22, nazev: "kolobežka", kategorie: 8, majitel:1, cena: "80",images:"sport/kolobezka.jpg"},
         { id:23, nazev: "rotoped", kategorie: 8, majitel:5, cena: "100",images:"sport/rotoped.jpg"},
@@ -28,10 +28,10 @@ export default {
         { id:25, nazev: "boxovací pytel", kategorie: 8, majitel:1, cena: "100",images:"sport/box.jpg"},
         { id:26, nazev: "činky", kategorie: 8, majitel:2, cena: "50",images:"sport/cinky.jpg"},
         { id:27, nazev: "míč na beach", kategorie: 8, majitel:5, cena: "40",images:"sport/mic.jpg"},
-        { id:28, nazev: "bagr", kategorie: 8, majitel:4, cena: "5000",images:"stroje/bagr.jpg"},
-        { id:29, nazev: "jeřáb", kategorie: 8, majitel:1, cena: "5000",images:"stroje/jerab.jpg"},
-        { id:30, nazev: "sekačka", kategorie: 8, majitel:2, cena: "400",images:"stroje/sekacka.jpg"},
-        { id:31, nazev: "traktorek", kategorie: 8, majitel:3, cena: "400",images:"stroje/traktorek.jpg"},
+        { id:28, nazev: "bagr", kategorie: 9, majitel:4, cena: "5000",images:"stroje/bagr.jpg"},
+        { id:29, nazev: "jeřáb", kategorie: 9, majitel:1, cena: "5000",images:"stroje/jerab.jpg"},
+        { id:30, nazev: "sekačka", kategorie: 9, majitel:2, cena: "400",images:"stroje/sekacka.jpg"},
+        { id:31, nazev: "traktorek", kategorie: 9, majitel:3, cena: "400",images:"stroje/traktorek.jpg"},
 
 
     ],
