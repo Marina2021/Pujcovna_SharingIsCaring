@@ -19,5 +19,6 @@ export default {
     paticka: Paticka,
     hlavicka: Hlavicka
   }
+  
 };
 </script>
