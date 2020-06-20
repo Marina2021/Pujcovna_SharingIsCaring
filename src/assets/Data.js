@@ -60,7 +60,6 @@ export default {
         {id:8, name:"Sport",image:'sport.png'}, 
         {id:9, name:"Stroje",image:'stroje.png'}
     ],
-
 }
 
 
