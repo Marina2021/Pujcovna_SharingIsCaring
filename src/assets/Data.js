@@ -31,9 +31,9 @@ export default {
         { id:28, nazev: "bagr", kategorie: 9, majitel:4, mesto: "Plzen", cena: "5000",images:"stroje/bagr.jpg"},
         { id:29, nazev: "jeřáb", kategorie: 9, majitel:1, mesto: "Praha", cena: "5000",images:"stroje/jerab.jpg"},
         { id:30, nazev: "sekačka", kategorie: 9, majitel:2, mesto: "Brno", cena: "400",images:"stroje/sekacka.jpg"},
-        { id:31, nazev: "kolotoc", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/kolotoc.jpg"},
-        { id:32, nazev: "traktorek", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/vanicka.jpg"},
-        { id:19, nazev: "klavir", kategorie: 6, majitel:3, mesto: "Ostrava", cena: "200",images:"ostatni/klavir.jpg"},
+        { id:31, nazev: "kolotoč", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/kolotoc.jpg"},
+        { id:32, nazev: "vanička", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/vanicka.jpg"},
+        { id:33, nazev: "klavir", kategorie: 6, majitel:3, mesto: "Ostrava", cena: "200",images:"ostatni/klavir.jpg"},
         
 
     ],
