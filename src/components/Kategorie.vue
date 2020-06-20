@@ -1,6 +1,6 @@
 <template>
 
-  <v-col class="col-4">
+  <v-col class="col-6">
     <v-card dark v-on:click="click">
       <div class="vyska">
         
@@ -34,9 +34,9 @@ export default {
 <style>
 
 .vyska{
+  
   flex:box;
   flex-direction:column;
-  align-items: center;
-  justify-content: center;
+
 }
 </style>
