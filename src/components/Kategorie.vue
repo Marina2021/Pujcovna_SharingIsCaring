@@ -1,6 +1,6 @@
 <template>
   <v-col class="col-4">
-    <v-card :color="blue" dark>
+    <v-card dark>
       <router-link v-bind:to="`/zbozi/${ polozka.id }`">
         <div class="d-flex flex-no-wrap justify-space-between">
           <div>
