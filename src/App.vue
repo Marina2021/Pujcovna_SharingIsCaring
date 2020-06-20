@@ -2,7 +2,7 @@
   <div id="app">
     <hlavicka />
     <router-view />
-    <paticka />
+ 
     
     
   </div>
