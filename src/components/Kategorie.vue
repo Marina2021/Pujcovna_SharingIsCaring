@@ -1,7 +1,7 @@
 <template>
 
   <v-col class="col-6">
-    <v-card dark v-on:click="click">
+    <v-card color="primary" dark v-on:click="click">
       <div class="vyska">
         
 
