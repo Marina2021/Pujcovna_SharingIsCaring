@@ -3,6 +3,7 @@
  
  <v-row>
    <zbozi v-for="produkt in products" v-bind:produkt="produkt" v-bind:key= "produkt.id"/>
+   
  </v-row>
 
 </template>

@@ -8,6 +8,7 @@
         </div>
 
         <v-avatar class="ma-3" size="64" tile>
+         
           <img v-bind:src="require(`./../assets/images/groups/${produkt.image}`)"/>
         </v-avatar>
       </div>

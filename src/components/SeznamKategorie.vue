@@ -1,9 +1,10 @@
 <template>
   
 <div>
-
+  
  <v-row>
    <kategorie v-for="polozka in kategorie" v-bind:polozka="polozka" v-bind:key= "polozka.id" />
+   <router-link to="/">Na úvodní stránku</router-link>
  </v-row>
 </div>
 
