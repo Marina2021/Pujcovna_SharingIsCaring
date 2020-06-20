@@ -23,4 +23,10 @@ export default {
 </script>
 
 <style>
+
+.col-4{
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
 </style>
