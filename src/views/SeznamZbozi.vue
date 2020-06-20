@@ -10,6 +10,7 @@
 
 <script>
 import Zbozi from "@/components/Zbozi.vue";
+import Data from "@/assets/Data.js";
 export default {
     props: ['zbozi'],
 
