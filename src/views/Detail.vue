@@ -1,29 +1,35 @@
 <template>
   <div>
-    <div>
-      <v-col class="col-6">
-        <v-card dark v-on:click="click">
-          <div class="vyska">
-            <v-avatar class="ma-3" size="64" tile>
-              <img v-bind:src="require(`./../assets/images/groups/${polozka.image}`)" />
-            </v-avatar>
-
-            <div>
-              <v-card-title class="headline" v-text="polozka.name"></v-card-title>
-            </div>
-          </div>
-        </v-card>
-      </v-col>
-    </div>
+    <v-card>
+      <div>
+        <!-- <v-avatar class="ma-3" size="64" tile>
+        </v-avatar>-->
+        <img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" />
+​
+        <v-card-title class="headline" v-text="zobrazPolozku.nazev"></v-card-title>
+      </div>
+    </v-card>
   </div>
 </template>
-
+​
 <script>
+import Data from "@/assets/Data.js";
+​
 export default {
-    props: ["polozka"]
-    
+  props: ["id"],
+  data() {
+    return {
+      products: Data.products
+    };
+  },
+  computed: {
+    zobrazPolozku: function() {
+      return this.products.filter(
+        product => product.id === parseInt(this.id)
+      )[0];
+    }
+  }
 };
 </script>
-
 <style>
 </style>

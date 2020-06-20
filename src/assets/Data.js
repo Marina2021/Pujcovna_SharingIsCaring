@@ -3,10 +3,10 @@ export default {
     products: [
         { id:1, nazev: "auto", kategorie: 1, majitel:1, mesto: "Praha", cena: "800", images:"auto_moto/auto.jpg" },
         { id:2, nazev: "zvedák", kategorie: 1, majitel:2, mesto: "Brno", cena: "100",images:"auto_moto/zvedak.jpg"},
-        { id:3, nazev: "postel", kategorie: 2, majitel:3, mesto: "Ostrava", cena: "20",images:"dum_zahrada/postel.jpg"},
-        { id:4, nazev: "skříň", kategorie: 2, majitel:4, mesto: "Plzen", cena: "25",images:"dum_zahrada/skrin.jpg"},
-        { id:5, nazev: "stůl", kategorie: 2, majitel:5, mesto: "Olomouc", cena: "20",images:"dum_zahrada/stul.jpg"},
-        { id:6, nazev: "židle", kategorie: 2, majitel:1, mesto: "Praha", cena: "10",images:"dum_zahrada/zidle.jpg"},
+        { id:3, nazev: "postel", kategorie: 2, majitel:3, mesto: "Ostrava", cena: "20",images:"domacnost/postel.jpg"},
+        { id:4, nazev: "skříň", kategorie: 2, majitel:4, mesto: "Plzen", cena: "25",images:"domacnost/skrin.jpg"},
+        { id:5, nazev: "stůl", kategorie: 2, majitel:5, mesto: "Olomouc", cena: "20",images:"domacnost/stul.jpg"},
+        { id:6, nazev: "židle", kategorie: 2, majitel:1, mesto: "Praha", cena: "10",images:"domacnost/zidle.jpg"},
         { id:7, nazev: "mixer", kategorie: 3, majitel:2, mesto: "Brno", cena: "50",images:"elektro/mixer.jpg"},
         { id:8, nazev: "rádio", kategorie: 3, majitel:3, mesto: "Ostrava", cena: "50",images:"elektro/radio.jpg"},
         { id:9, nazev: "senzor dechu",  kategorie: 3, majitel:4, mesto: "Plzen", cena: "10",images:"elektro/senzor_dechu.jpg"},
@@ -46,7 +46,7 @@ export default {
 
     kategorie: [
         {id:1, name:"Auto-Moto",image:'auto.png'},
-        {id:2, name:"Dům a Zahrada",image:'dum.png'}, 
+        {id:2, name:"Domácnost",image:'dum.png'}, 
         {id:3, name:"Elektro",image:'elektro.png'}, 
         {id:4, name:"Nářadí",image:'naradi.png'}, 
         {id:5, name:"Oblečení",image:'obleceni.png'},
