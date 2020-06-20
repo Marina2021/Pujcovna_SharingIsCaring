@@ -1,7 +1,7 @@
 <template>
   <v-col class="col-4">
-    <v-card :color="blue" dark>
-      <router-link to="/zbozi">
+    <v-card dark>
+      <router-link v-bind:to="`/zbozi/${ polozka.id }`">
         <div class="d-flex flex-no-wrap justify-space-between">
           <div>
             <v-card-title class="headline" v-text="polozka.name"></v-card-title>
