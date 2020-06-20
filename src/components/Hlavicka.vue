@@ -1,9 +1,11 @@
 <template>
   <div>
     <v-app-bar
-      color="deep-purple accent-4"
+    app
+      color="primary"
       dense
       dark
+  
     > 
     <v-btn icon>
         <v-icon>mdi-home</v-icon>
