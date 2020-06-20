@@ -1,7 +1,10 @@
 <template>
+  <v-container class="grey lighten-5">
   <v-row>
+    
     <zbozi v-for="produkt in zobrazZbozi" v-bind:produkt="produkt" v-bind:key="produkt.id" />
   </v-row>
+  </v-container>
 </template>
 
 <script>
