@@ -7,7 +7,7 @@
       dark
   
     > 
-    <v-btn icon>
+    <v-btn icon v-on:click="click" >
         <v-icon>mdi-home</v-icon>
       </v-btn>
 
@@ -26,6 +26,11 @@
 
 <script>
 export default {
+  methods: {
+    click: function() {
+     this.$router.push( { name: `Home` } )
+    }
+  }
 
 }
 </script>
