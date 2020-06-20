@@ -32,7 +32,8 @@ export default {
         { id:29, nazev: "jeřáb", kategorie: 9, majitel:1, cena: "5000",images:"stroje/jerab.jpg"},
         { id:30, nazev: "sekačka", kategorie: 9, majitel:2, cena: "400",images:"stroje/sekacka.jpg"},
         { id:31, nazev: "kolotoc", kategorie: 7, majitel:3, cena: "400",images:"pro_deti/kolotoc.jpg"},
-        { id:32, nazev: "traktorek", kategorie: 9, majitel:3, cena: "400",images:"pro_deti/vanicka.jpg"},
+        { id:32, nazev: "traktorek", kategorie: 7, majitel:3, cena: "400",images:"pro_deti/vanicka.jpg"},
+        { id:19, nazev: "klavir", kategorie: 6, majitel:3, cena: "200",images:"ostatni/klavir.jpg"},
         
 
     ],
