@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <hlavicka />
-    <router-view class="horniOdstup" />
+    <div class="horniOdstup">
+    <router-view />
+    </div>
  
     
     
@@ -26,7 +28,7 @@ export default {
 <style scoped>
 
 .horniOdstup {
-  padding: 30px;
+  margin: 40px 20px 20px 20px;
 }
 
 </style>
