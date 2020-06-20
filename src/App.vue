@@ -26,7 +26,7 @@ export default {
 <style scoped>
 
 .horniOdstup {
-  padding: 30px;
+  margin: 40px 20px 20px 20px;
 }
 
 </style>
