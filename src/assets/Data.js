@@ -19,7 +19,6 @@ export default {
         { id:16, nazev: "kabát", kategorie: 5, majitel:1, mesto: "Praha", cena: "30",images:"obleceni/kabat.jpg"},
         { id:17, nazev: "oblek", kategorie: 5, majitel:2, mesto: "Brno", cena: "600",images:"obleceni/oblek.jpg"},
         { id:18, nazev: "svatební šaty", kategorie: 5, majitel:3, mesto: "Ostrava", cena: "1000",images:"obleceni/svatebni_saty.jpg"},
-        { id:19, nazev: "diskokoule", kategorie: 6, majitel:3, mesto: "Ostrava", cena: "200",images:"ostatni/diskokoule.jpg"},
         { id:20, nazev: "autosedačka", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "200",images:"pro_deti/autosedacka.jpg"},
         { id:21, nazev: "kolo", kategorie: 8, majitel:3, mesto: "Ostrava", cena: "200",images:"sport/kolo.jpg"},
         { id:22, nazev: "kolobežka", kategorie: 8, majitel:1, mesto: "Praha", cena: "80",images:"sport/kolobezka.jpg"},
@@ -33,7 +32,7 @@ export default {
         { id:30, nazev: "sekačka", kategorie: 9, majitel:2, mesto: "Brno", cena: "400",images:"stroje/sekacka.jpg"},
         { id:31, nazev: "kolotoč", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/kolotoc.jpg"},
         { id:32, nazev: "vanička", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/vanicka.jpg"},
-        { id:33, nazev: "klavir", kategorie: 6, majitel:3, mesto: "Ostrava", cena: "200",images:"ostatni/klavir.jpg"},
+      
         
 
     ],
@@ -53,7 +52,6 @@ export default {
         {id:3, name:"Elektro",image:'elektro.png'}, 
         {id:4, name:"Nářadí",image:'naradi.png'}, 
         {id:5, name:"Oblečení",image:'obleceni.png'},
-        {id:6, name:"Ostatní",image:'ostatni.png'}, 
         {id:7, name:"Pro Děti",image:'deti.png'}, 
         {id:8, name:"Sport",image:'sport.png'}, 
         {id:9, name:"Stroje",image:'stroje.png'}
