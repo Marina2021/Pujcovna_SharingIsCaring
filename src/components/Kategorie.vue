@@ -12,7 +12,7 @@
         
 
         <div>
-          <v-card-title class="headline" v-text="polozka.name"></v-card-title>
+          <v-card-title class="text" v-text="polozka.name"></v-card-title>
         </div>
       </div>
     </v-card>
@@ -40,4 +40,11 @@ export default {
   flex-direction:column;
 
 }
+
+.headline{
+  font-size:5px;
+  padding: 5px;
+}
+
+
 </style>
