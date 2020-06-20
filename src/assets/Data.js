@@ -50,15 +50,15 @@ export default {
     ],
 
     kategorie: [
-        {id:1, name:"Auto Moto",image:'sport.png'},
+        {id:1, name:"Auto Moto",image:'auto.png'},
         {id:2, name:"Dům a Zahrada",image:'dum.png'}, 
-        {id:3, name:"Elektro",image:'sport.png'}, 
-        {id:4, name:"Nářadí",image:'sport.png'}, 
-        {id:5, name:"Oblečení",image:'sport.png'},
-        {id:6, name:"Ostatní",image:'sport.png'}, 
+        {id:3, name:"Elektro",image:'elektro.png'}, 
+        {id:4, name:"Nářadí",image:'naradi.png'}, 
+        {id:5, name:"Oblečení",image:'obleceni.png'},
+        {id:6, name:"Ostatní",image:'ostatni.png'}, 
         {id:7, name:"Pro Děti",image:'deti.png'}, 
         {id:8, name:"Sport",image:'sport.png'}, 
-        {id:9, name:"Stroje",image:'sport.png'}
+        {id:9, name:"Stroje",image:'stroje.png'}
     ],
 
 }
