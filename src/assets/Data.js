@@ -33,8 +33,6 @@ export default {
         { id:31, nazev: "kolotoč", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/kolotoc.jpg"},
         { id:32, nazev: "vanička", kategorie: 7, majitel:3, mesto: "Ostrava", cena: "400",images:"pro_deti/vanicka.jpg"},
       
-        
-
     ],
 
     majitel: [

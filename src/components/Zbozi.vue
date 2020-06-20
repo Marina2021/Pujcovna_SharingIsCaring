@@ -23,7 +23,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn color="orange" text>Detail</v-btn>
+      <v-btn v-on:click="click" color="orange" text>Detail</v-btn>
     </v-card-actions>
         </div>
       
@@ -43,6 +43,11 @@
 //<img v-bind:src="require(`./public/images/${produkt.image}`)"/>
 export default {
  props: ["produkt"],
+methods: {
+   click: function() {
+     this.$router.push({ name: `Detail`, params: { id: this.produkt.id } })
+    }
+  }
 }
 </script>
 
