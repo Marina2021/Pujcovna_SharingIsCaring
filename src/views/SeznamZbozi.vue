@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     zobrazZbozi: function() {
-      let zbozi = this.products.filter(product => (product.kategorie === this.id));
+      let zbozi = this.products.filter(product => (product.kategorie === parseInt(this.id)));
       return zbozi;
     }
   }
