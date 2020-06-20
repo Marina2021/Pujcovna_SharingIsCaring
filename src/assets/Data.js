@@ -25,7 +25,7 @@ export default {
         { id:22, nazev: "kolobežka", kategorie: 8, majitel:1, cena: "80",images:"sport/kolobezka.jpg"},
         { id:23, nazev: "rotoped", kategorie: 8, majitel:5, cena: "100",images:"sport/rotoped.jpg"},
         { id:24, nazev: "golfová sada", kategorie: 8, majitel:2, cena: "100",images:"sport/golf.jpg"},
-        { id:25, nazev: "boxovací pytel", kategorie: 8, majitel:1, cena: "100",images:"sport/box.jpg"},
+        { id:25, nazev: "boxovací pytel", kategorie: 8, majitel:1, cena: "100",images:"sport/boxovaci_pytel.jpg"},
         { id:26, nazev: "činky", kategorie: 8, majitel:2, cena: "50",images:"sport/cinky.jpg"},
         { id:27, nazev: "míč na beach", kategorie: 8, majitel:5, cena: "40",images:"sport/mic.jpg"},
         { id:28, nazev: "bagr", kategorie: 8, majitel:4, cena: "5000",images:"stroje/bagr.jpg"},
