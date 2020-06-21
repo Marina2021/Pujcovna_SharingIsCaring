@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <v-layout row>
     <v-flex xs12 sm6 offset-sm3>
       <v-card>
@@ -29,21 +28,6 @@
     </v-flex>
   </v-layout>
 </template>
-=======
-
-    <v-card >
-        <img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" />
-      <div>
-        <!-- <v-avatar class="ma-3" size="64" tile>
-        </v-avatar>-->
-​
-        <v-card-title class="headline" v-text="zobrazPolozku.nazev"></v-card-title>
-      </div>
-    </v-card>
-
-    
-  </template>
->>>>>>> 53913cf1442fd7d0de1941643c208209c5a084e5
 ​
 <script>
 import Data from "@/assets/Data.js";
