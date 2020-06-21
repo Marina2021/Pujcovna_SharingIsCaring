@@ -54,6 +54,7 @@ export default {
     ],
 
     kategorie: [
+
         { id: 1, name: "Auto-Moto", image: 'auto.png', barva: "orange darken-1"},
         { id: 2, name: "Domácnost", image: 'dum.png', barva:"blue darken-1"},
         { id: 3, name: "Elektro", image: 'elektro.png', barva: "orange darken-2"},
