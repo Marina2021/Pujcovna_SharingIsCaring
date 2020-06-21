@@ -6,14 +6,13 @@
         <v-card-title class="headline" v-text="zobrazPolozku.nazev"></v-card-title>
         <v-card-subtitle>{{ zobrazPolozku.cena }} Kč/den
           <br>
-        {{ zobrazPolozku.mesto }}</v-card-subtitle>
-        <v-card-text>{{ zobrazPolozku.popis }}</v-card-text>
+        {{ zobrazPolozku.mesto }}
+        <br>
+        Majitel: {{ zobrazMajitele.jmeno }}</v-card-subtitle>
         <v-card-actions class="d-flex justify-center">
             <v-btn  v-on:click="proclick"  flat color="orange">Pujčit</v-btn>
         </v-card-actions>
-
-        <v-card-subtitle>Majitel: {{ zobrazMajitele.jmeno }}</v-card-subtitle>
-
+        <v-card-text>{{ zobrazPolozku.popis }}</v-card-text>
       </v-card>
     </v-flex>
   </v-layout>
