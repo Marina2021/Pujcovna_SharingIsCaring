@@ -37,10 +37,49 @@
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
     <v-card-actions class="d-flex justify-center">
-      <v-btn v-on:click="odklikni" class="mr-4" flat color="orange">Půjčit</v-btn>
+      <v-btn v-on:click="odklikni" class="mr-4"  flat color="orange">Půjčit</v-btn>
     </v-card-actions>
   </v-form>
 </template>
+
+<script>
+import Data from "@/assets/Data.js";
+export default {
+  props: ["id"],
+  data() {
+    return {
+      products: Data.products,
+      valid: false,
+      name: "",
+      nameErrors: "",
+      mobil: "",
+      email: "",
+      emailErrors: "",
+      checkbox: false,
+      checkboxErrors: "",
+      emailRules: [
+        v => !!v || "E-mail is required",
+        v => /.+@.+/.test(v) || "E-mail must be valid"
+      ]
+    };
+  },
+  methods: {
+    odklikni: function() {
+      alert("Požadavek byl odeslán majiteli");
+      this.$router.push({ name: `Home` });
+    }
+  },
+  computed: {
+    zobrazPolozku: function() {
+      return this.products.filter(
+        product => product.id === parseInt(this.id)
+      )[0];
+    }
+  }
+};
+</script>
+<style>
+</style>
 
 <script>
 import Data from "@/assets/Data.js";
