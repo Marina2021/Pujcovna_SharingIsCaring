@@ -5,15 +5,17 @@
         <v-img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" height="200px"></v-img>
 
         <v-card-title class="headline" v-text="zobrazPolozku.nazev">
-          <div>
+           <!--<div>
             <div class="headline">{{ zobrazPolozku.nazev }}</div>
             <span class="grey--text">{{ zobrazPolozku.cena }}</span>
             <span class="grey--text">{{ zobrazPolozku.mesto }}</span>
-          </div>
+          </div> -->
         </v-card-title>
-
+    
+        <v-card-subtitle>{{ zobrazPolozku.cena }} Kč/den </v-card-subtitle>
+        <v-card-subtitle>{{ zobrazPolozku.mesto }}</v-card-subtitle>
         <v-card-actions>
-          <v-btn flat>{{ zobrazPolozku.mesto }}</v-btn>
+          <!-- <v-btn flat>{{ zobrazPolozku.mesto }}</v-btn> -->
           <v-btn flat color="dark blue">Pujčit</v-btn>
           <v-spacer></v-spacer>
           <v-btn icon @click="show = !show">
@@ -33,14 +35,13 @@
 import Data from "@/assets/Data.js";
 import Formular from "@/views/Formular.vue";
 
-
 export default {
   props: ["id"],
   data() {
     return {
       products: Data.products,
-    show: false
-    }
+      show: false
+    };
   },
   computed: {
     zobrazPolozku: function() {
