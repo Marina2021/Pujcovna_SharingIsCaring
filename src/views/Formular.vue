@@ -60,14 +60,11 @@ props: ["id"],
   },
 methods:{
   odklikni: function() {
-    if (confirm("Press a button!")) {
-  txt = "You pressed OK!";
-} else {
-  txt = "You pressed Cancel!";
-}
+ alert("Požadavek byl odeslán majiteli"); 
+} 
 
-}
 },
+
   
   computed: {
     zobrazPolozku: function() {
