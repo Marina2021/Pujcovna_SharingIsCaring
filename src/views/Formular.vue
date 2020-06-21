@@ -47,9 +47,9 @@
 
  
 
- 
-    <v-btn v-on:click="odklikni" class="mr-4" @click="submit">Půjčit</v-btn>
-    
+ <v-card-actions class="d-flex justify-center">
+    <v-btn v-on:click="odklikni" class="mr-4" @click="submit" flat color="orange">Půjčit</v-btn>
+ </v-card-actions>
   </v-form>
 </template>
 
