@@ -11,6 +11,9 @@
         <v-card-actions class="d-flex justify-center">
             <v-btn  v-on:click="proclick"  flat color="orange">Pujčit</v-btn>
         </v-card-actions>
+
+        <v-card-subtitle>Majitel: {{ zobrazMajitele.jmeno }}</v-card-subtitle>
+
       </v-card>
     </v-flex>
   </v-layout>
@@ -21,10 +24,11 @@ import Data from "@/assets/Data.js";
 import Formular from "@/views/Formular.vue";
 
 export default {
-  props: ["id"],
+  props: ["id", "majitelId"],
   data() {
     return {
-      products: Data.products
+      products: Data.products,
+      majitel: Data.majitel
     };
   },
   methods: {
@@ -37,6 +41,12 @@ export default {
     zobrazPolozku: function() {
       return this.products.filter(
         product => product.id === parseInt(this.id)
+      )[0];
+    },
+    zobrazMajitele: function() {
+      const majitelId = this.zobrazPolozku.majitel
+      return this.majitel.filter(
+        majitel => majitel.id === parseInt(majitelId)
       )[0];
     }
   }
