@@ -41,10 +41,23 @@
 </template>
 
 <script>
-export default {};
+export default {
+props: ["id"],
 
-computed: {
+  data() {
+    return {
+      products: Data.products
+    };
+  },
+  computed: {
+    zobrazPolozku: function() {
+      return this.products.filter(
+        product => product.id === parseInt(this.id)
+      )[0];
+    }
+  }
 }
+
 </script>
 
 <style>
