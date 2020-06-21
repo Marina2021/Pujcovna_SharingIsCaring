@@ -42,20 +42,33 @@
 
 
 
-    <v-btn class="mr-4" @click="submit">půjčit</v-btn>
+    <v-btn v-on:click="odklikni" class="mr-4" @click="submit">půjčit</v-btn>
     
   </form>
 </template>
 
 <script>
+ 
+
 export default {
 props: ["id"],
 
   data() {
     return {
-      products: Data.products
+      products: [Data.products]
     };
   },
+methods:{
+  odklikni: function() {
+    if (confirm("Press a button!")) {
+  txt = "You pressed OK!";
+} else {
+  txt = "You pressed Cancel!";
+}
+
+}
+},
+  
   computed: {
     zobrazPolozku: function() {
       return this.products.filter(
@@ -63,6 +76,7 @@ props: ["id"],
       )[0];
     }
   }
+
 }
 
 </script>
