@@ -1,4 +1,5 @@
 <template>
+
     <v-card >
         <img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" />
       <div>
@@ -8,10 +9,14 @@
         <v-card-title class="headline" v-text="zobrazPolozku.nazev"></v-card-title>
       </div>
     </v-card>
+
+    
   </template>
 ​
 <script>
 import Data from "@/assets/Data.js";
+import Formular from "@/views/Formular.vue";
+
 
 export default {
   props: ["id"],

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SeznamZbozi from '../views/SeznamZbozi.vue'
 import Detail from '../views/Detail.vue'
+import Formular from '../views/Formular.vue'
 
 Vue.use(VueRouter)
 
@@ -31,6 +32,12 @@ Vue.use(VueRouter)
       path: '/detail/:id',
       name: 'Detail',
       component: Detail,
+      props: true
+    },
+    {
+      path: '/formular/:id',
+      name: 'Formular',
+      component: Formular,
       props: true
     },
 ]
