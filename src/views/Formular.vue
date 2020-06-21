@@ -1,6 +1,5 @@
 <template>
   <v-form v-model="valid">
-    
     <v-text-field
       v-model="name"
       :error-messages="nameErrors"
@@ -19,7 +18,6 @@
       @input="$v.email.$touch()"
       @blur="$v.email.$touch()"
     ></v-text-field>
-
     <v-text-field
       v-model="mobil"
       :error-messages="nameErrors"
@@ -29,12 +27,7 @@
       @input="$v.mobil.$touch()"
       @blur="$v.mobil.$touch()"
     ></v-text-field>
-   
-   <a href="/fotky_projekt_DA/GDPR.pdf"
-      target="_blank"
-      rel="noopener noreferrer">Podmínky a GDPR</a>
-
-
+    <a href="/fotky_projekt_DA/GDPR.pdf" target="_blank" rel="noopener noreferrer">Podmínky a GDPR</a>
     <v-checkbox
       v-model="checkbox"
       :error-messages="checkboxErrors"
@@ -43,38 +36,72 @@
       @change="$v.checkbox.$touch()"
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
-
-
- 
-
- 
-    <v-btn v-on:click="odklikni" class="mr-4" @click="submit">Půjčit</v-btn>
-    
+    <v-card-actions class="d-flex justify-center">
+      <v-btn v-on:click="odklikni" class="mr-4" flat color="orange">Půjčit</v-btn>
+    </v-card-actions>
   </v-form>
 </template>
 
 <script>
- 
-
+import Data from "@/assets/Data.js";
 export default {
-props: ["id"],
+  props: ["id"],
+  data() {
+    return {
+      products: Data.products,
+      valid: false,
+      name: "",
+      nameErrors: "",
+      mobil: "",
+      email: "",
+      emailErrors: "",
+      checkbox: false,
+      checkboxErrors: "",
+      emailRules: [
+        v => !!v || "E-mail is required",
+        v => /.+@.+/.test(v) || "E-mail must be valid"
+      ]
+    };
+  },
+  methods: {
+    odklikni: function() {
+      alert("Požadavek byl odeslán majiteli");
+      this.$router.push({ name: `Home` });
+    }
+  },
+  computed: {
+    zobrazPolozku: function() {
+      return this.products.filter(
+        product => product.id === parseInt(this.id)
+      )[0];
+    }
+  }
+};
+</script>
+<style>
+</style>
+
+<script>
+import Data from "@/assets/Data.js";
+export default {
+  props: ["id"],
 
   data() {
     return {
-      products: [Data.products],
+      products: Data.products,
       valid: false,
-      email: '',
+      email: "",
       emailRules: [
-        v => !!v || 'E-mail is required',
-        v => /.+@.+/.test(v) || 'E-mail must be valid',
+        v => !!v || "E-mail is required",
+        v => /.+@.+/.test(v) || "E-mail must be valid"
       ]
-    }
+    };
   },
 
-methods:{
-  odklikni: function() {
- alert("Požadavek byl odeslán majiteli");
- this.$router.push( { name: `Home` } );
+  methods: {
+    odklikni: function() {
+      alert("Požadavek byl odeslán majiteli");
+      this.$router.push({ name: `Home` });
     }
   },
 
@@ -85,9 +112,7 @@ methods:{
       )[0];
     }
   }
-
-}
-
+};
 </script>
 
 <style>
