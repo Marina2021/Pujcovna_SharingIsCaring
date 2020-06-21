@@ -1,5 +1,6 @@
 <template>
-  <form>
+  <v-form v-model="valid">
+    
     <v-text-field
       v-model="name"
       :error-messages="nameErrors"
@@ -11,6 +12,7 @@
     ></v-text-field>
     <v-text-field
       v-model="email"
+      :rules="emailRules"
       :error-messages="emailErrors"
       label="E-mail"
       required
@@ -28,7 +30,11 @@
       @blur="$v.mobil.$touch()"
     ></v-text-field>
    
-   
+   <a href="/fotky_projekt_DA/GDPR.pdf"
+      target="_blank"
+      rel="noopener noreferrer">Podmínky a GDPR</a>
+
+
     <v-checkbox
       v-model="checkbox"
       :error-messages="checkboxErrors"
@@ -38,15 +44,13 @@
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
 
-<a href="/fotky_projekt_DA/GDPR.pdf"
-      target="_blank"
-      rel="noopener noreferrer">Podmínky a GDPR</a>
+
  
 
-
-    <v-btn v-on:click="odklikni" class="mr-4" @click="submit">půjčit</v-btn>
+ 
+    <v-btn v-on:click="odklikni" class="mr-4" @click="submit">Půjčit</v-btn>
     
-  </form>
+  </v-form>
 </template>
 
 <script>
@@ -57,17 +61,23 @@ props: ["id"],
 
   data() {
     return {
-      products: [Data.products]
-    };
+      products: [Data.products],
+      valid: false,
+      email: '',
+      emailRules: [
+        v => !!v || 'E-mail is required',
+        v => /.+@.+/.test(v) || 'E-mail must be valid',
+      ]
+    }
   },
+
 methods:{
   odklikni: function() {
- alert("Požadavek byl odeslán majiteli"); 
-} 
+ alert("Požadavek byl odeslán majiteli");
+ this.$router.push( { name: `Home` } );
+    }
+  },
 
-},
-
-  
   computed: {
     zobrazPolozku: function() {
       return this.products.filter(
