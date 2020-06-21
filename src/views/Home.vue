@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-container class="grey lighten-5">
-      <seznamKategorie v-bind:kategorie="kategorie"/>
-    </v-container>
+    
+    <seznamKategorie v-bind:kategorie="kategorie"/>
+    
    
   </div>
 </template>

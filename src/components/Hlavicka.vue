@@ -1,5 +1,4 @@
 <template>
-  <div>
     <v-app-bar
     app
       color="primary"
@@ -21,7 +20,6 @@
 
      
     </v-app-bar>
-  </div>
 </template>
 
 <script>

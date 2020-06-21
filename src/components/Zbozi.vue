@@ -2,15 +2,15 @@
 
 <div class="col-6">
  <v-card>
-      <div class="d-flex flex-no-wrap justify-space-between">
+      <!-- <div class="d-flex flex-no-wrap justify-space-between">
         <div>
-  <div class="img-container">
+  <div class="img-container"> -->
     <img
       class="white--text align-end obrazek"
       height="200px"
       v-bind:src="`/fotky_projekt_DA/${produkt.images}`"
    />
-  </div>
+  <!-- </div> -->
      
 
  <v-card-title class="headline" v-text="produkt.nazev"></v-card-title>
@@ -25,16 +25,16 @@
     <v-card-actions>
       <v-btn v-on:click="click" color="orange" text>Detail</v-btn>
     </v-card-actions>
-        </div>
+        <!-- </div> -->
       
     
       
 
-        <v-avatar class="ma-3" size="64" tile>
+        <!-- <v-avatar class="ma-3" size="64" tile>
          
           
-        </v-avatar>
-      </div>
+        </v-avatar> -->
+      <!-- </div> -->
     </v-card>
 </div>
 </template>

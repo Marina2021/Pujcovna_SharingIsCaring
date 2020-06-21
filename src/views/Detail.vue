@@ -1,16 +1,14 @@
 <template>
-  <div class="horniOdstup">
     <v-card >
+        <img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" />
       <div>
         <!-- <v-avatar class="ma-3" size="64" tile>
         </v-avatar>-->
-        <img v-bind:src="`/fotky_projekt_DA/${zobrazPolozku.images}`" />
 ​
         <v-card-title class="headline" v-text="zobrazPolozku.nazev"></v-card-title>
       </div>
     </v-card>
-</div>
-</template>
+  </template>
 ​
 <script>
 import Data from "@/assets/Data.js";
@@ -32,7 +30,7 @@ export default {
 };
 </script>
 <style>
-.horniOdstup {
-  margin: 40px 20px 20px 20px;
+.v-card img {
+ width: 100%;
 }
 </style>
