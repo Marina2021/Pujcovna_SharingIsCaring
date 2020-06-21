@@ -21,7 +21,6 @@
 </template>
 
 <script>
-//<v-card color="primary" dark v-on:click="click">
 export default {
   props: ["polozka"],
   methods: {

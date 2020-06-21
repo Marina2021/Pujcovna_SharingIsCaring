@@ -8,7 +8,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+
 
 import Data from "@/assets/Data.js";
 import SeznamKategorie from "@/components/SeznamKategorie.vue";

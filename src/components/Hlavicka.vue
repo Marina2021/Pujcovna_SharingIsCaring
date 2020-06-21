@@ -10,14 +10,7 @@
         <v-icon>mdi-home</v-icon>
       </v-btn>
 
-      
-
       <v-toolbar-title>Půjč si</v-toolbar-title>
-
-      
-
-      
-
      
     </v-app-bar>
 </template>
