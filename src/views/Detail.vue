@@ -16,7 +16,7 @@
         <v-card-subtitle>{{ zobrazPolozku.mesto }}</v-card-subtitle>
         <v-card-actions>
           <!-- <v-btn flat>{{ zobrazPolozku.mesto }}</v-btn> -->
-          <v-btn flat color="dark blue">Pujčit</v-btn>
+          <v-btn flat color="orange">Pujčit</v-btn>
           <v-spacer></v-spacer>
           <v-btn icon @click="show = !show">
             <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
