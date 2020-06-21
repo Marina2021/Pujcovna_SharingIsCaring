@@ -55,13 +55,13 @@ export default {
 
     kategorie: [
 
-        { id: 1, name: "Auto-Moto", image: 'auto.png', barva: "orange darken-1"},
+        { id: 1, name: "Auto-Moto", image: 'auto.png', barva: "blue darken-1"},
         { id: 2, name: "Domácnost", image: 'dum.png', barva:"blue darken-1"},
-        { id: 3, name: "Elektro", image: 'elektro.png', barva: "orange darken-2"},
+        { id: 3, name: "Elektro", image: 'elektro.png', barva: "blue darken-2"},
         { id: 4, name: "Nářadí", image: 'naradi.png', barva: "blue darken-1" },
-        { id: 5, name: "Oblečení", image: 'obleceni.png', barva: "orange darken-3"},
+        { id: 5, name: "Oblečení", image: 'obleceni.png', barva: "blue darken-3"},
         { id: 7, name: "Pro Děti", image: 'deti.png', barva: "blue darken-3"},
-        { id: 8, name: "Sport", image: 'sport.png', barva: "orange darken-4"},
+        { id: 8, name: "Sport", image: 'sport.png', barva: "blue darken-4"},
         { id: 9, name: "Stroje", image: 'stroje.png', barva: "blue darken-4" }
     ],
 
