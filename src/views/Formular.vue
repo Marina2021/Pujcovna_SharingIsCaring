@@ -38,8 +38,10 @@
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
 
-<a href="/fotky_projekt_DA/GDPR.pdf">Souhlasím s podmínkami GDPR</a>
-
+<a href="/fotky_projekt_DA/GDPR.pdf"
+      target="_blank"
+      rel="noopener noreferrer">Podmínky a GDPR</a>
+ 
 
 
     <v-btn v-on:click="odklikni" class="mr-4" @click="submit">půjčit</v-btn>
