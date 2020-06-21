@@ -28,6 +28,7 @@
       @blur="$v.mobil.$touch()"
     ></v-text-field>
    
+   
     <v-checkbox
       v-model="checkbox"
       :error-messages="checkboxErrors"
@@ -36,6 +37,10 @@
       @change="$v.checkbox.$touch()"
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
+
+<a href="/fotky_projekt_DA/GDPR.pdf">Souhlasím s podmínkami GDPR</a>
+
+
 
     <v-btn class="mr-4" @click="submit">půjčit</v-btn>
     
