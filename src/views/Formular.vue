@@ -17,18 +17,28 @@
       @input="$v.email.$touch()"
       @blur="$v.email.$touch()"
     ></v-text-field>
+
+    <v-text-field
+      v-model="mobil"
+      :error-messages="nameErrors"
+      :counter="10"
+      label="Mobil"
+      required
+      @input="$v.mobil.$touch()"
+      @blur="$v.mobil.$touch()"
+    ></v-text-field>
    
     <v-checkbox
       v-model="checkbox"
       :error-messages="checkboxErrors"
-      label="Do you agree?"
+      label="Souhlasím s podmínkami"
       required
       @change="$v.checkbox.$touch()"
       @blur="$v.checkbox.$touch()"
     ></v-checkbox>
 
-    <v-btn class="mr-4" @click="submit">submit</v-btn>
-    <v-btn @click="clear">clear</v-btn>
+    <v-btn class="mr-4" @click="submit">půjčit</v-btn>
+    
   </form>
 </template>
 
