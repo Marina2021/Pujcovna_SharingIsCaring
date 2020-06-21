@@ -1,7 +1,7 @@
 <template>
 
 <div class="col-6">
- <v-card>
+ <v-card v-on:click="click">
       <!-- <div class="d-flex flex-no-wrap justify-space-between">
         <div>
   <div class="img-container"> -->
@@ -23,7 +23,7 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn v-on:click="click" color="orange" text>Detail</v-btn>
+      <!-- <v-btn v-on:click="click" color="orange" text>Detail</v-btn> -->
     </v-card-actions>
         <!-- </div> -->
       
