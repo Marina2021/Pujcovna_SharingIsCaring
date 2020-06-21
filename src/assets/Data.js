@@ -1,7 +1,7 @@
 export default {
 
     products: [
-        { id: 1, nazev: "BMW", kategorie: 1, majitel: 1, mesto: "Praha", cena: "800", images: "auto_moto/auto.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { id: 1, nazev: "Škoda", kategorie: 1, majitel: 1, mesto: "Praha", cena: "800", images: "auto_moto/auto.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 2, nazev: "zvedák", kategorie: 4, majitel: 2, mesto: "Brno", cena: "100", images: "auto_moto/zvedak.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 3, nazev: "postel", kategorie: 2, majitel: 3, mesto: "Ostrava", cena: "20", images: "domacnost/postel.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 4, nazev: "skříň", kategorie: 2, majitel: 4, mesto: "Plzen", cena: "25", images: "domacnost/skrin.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
@@ -33,7 +33,7 @@ export default {
         { id: 31, nazev: "kolotoč", kategorie: 7, majitel: 3, mesto: "Ostrava", cena: "400", images: "pro_deti/kolotoc.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 32, nazev: "vanička", kategorie: 7, majitel: 3, mesto: "Ostrava", cena: "400", images: "pro_deti/vanicka.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 33, nazev: "Audi", kategorie: 1, majitel: 1, mesto: "Praha", cena: "1200", images: "auto_moto/audi.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
-        { id: 34, nazev: "Beatle", kategorie: 1, majitel: 2, mesto: "Brno", cena: "700", images: "auto_moto/beatle.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
+        { id: 34, nazev: "Mini", kategorie: 1, majitel: 2, mesto: "Brno", cena: "700", images: "auto_moto/beatle.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 35, nazev: "Fiat", kategorie: 1, majitel: 3, mesto: "Ostrava", cena: "900", images: "auto_moto/fiat.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 36, nazev: "Honda", kategorie: 1, majitel: 4, mesto: "Plzen", cena: "1000", images: "auto_moto/honda.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 37, nazev: "Jeep", kategorie: 1, majitel: 5, mesto: "Olomouc", cena: "1500", images: "auto_moto/jeep.jpg", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
@@ -54,14 +54,14 @@ export default {
     ],
 
     kategorie: [
-        { id: 1, name: "Auto-Moto", image: 'auto.png', barva: "green" },
-        { id: 2, name: "Domácnost", image: 'dum.png', barva: "primary" },
-        { id: 3, name: "Elektro", image: 'elektro.png', barva: "blue" },
-        { id: 4, name: "Nářadí", image: 'naradi.png', barva: "yellow" },
-        { id: 5, name: "Oblečení", image: 'obleceni.png', barva: "orange" },
-        { id: 7, name: "Pro Děti", image: 'deti.png', barva: "primary" },
-        { id: 8, name: "Sport", image: 'sport.png', barva: "success" },
-        { id: 9, name: "Stroje", image: 'stroje.png', barva: "yellow" }
+        { id: 1, name: "Auto-Moto", image: 'auto.png', barva: "orange darken-1"},
+        { id: 2, name: "Domácnost", image: 'dum.png', barva:"blue darken-1"},
+        { id: 3, name: "Elektro", image: 'elektro.png', barva: "orange darken-2"},
+        { id: 4, name: "Nářadí", image: 'naradi.png', barva: "blue darken-1" },
+        { id: 5, name: "Oblečení", image: 'obleceni.png', barva: "orange darken-3"},
+        { id: 7, name: "Pro Děti", image: 'deti.png', barva: "blue darken-3"},
+        { id: 8, name: "Sport", image: 'sport.png', barva: "orange darken-4"},
+        { id: 9, name: "Stroje", image: 'stroje.png', barva: "blue darken-4" }
     ],
 
 }
