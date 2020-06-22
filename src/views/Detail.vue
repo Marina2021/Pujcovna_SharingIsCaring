@@ -12,7 +12,7 @@
         {{ zobrazPolozku.mesto }}
         </v-card-subtitle>
         <v-card-actions class="d-flex justify-center">
-          <v-btn v-on:click="proclick" flat color="orange">Pujčit</v-btn>
+          <v-btn v-on:click="proclick" flat color="orange white--text">Půjčit</v-btn>
         </v-card-actions>
         <v-card-text>{{ zobrazPolozku.popis }}</v-card-text>
       </v-card>

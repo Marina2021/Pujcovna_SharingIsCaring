@@ -31,7 +31,7 @@
 
 
     <v-card-actions class="d-flex justify-center">
-      <v-btn v-bind:disabled="!checkbox" v-on:click="odklikni" class="mr-4" flat color="orange">Půjčit</v-btn>
+      <v-btn v-bind:disabled="!checkbox" v-on:click="odklikni" class="mr-4" flat color="orange white--text ">Půjčit</v-btn>
       
     </v-card-actions>
   </v-form>
