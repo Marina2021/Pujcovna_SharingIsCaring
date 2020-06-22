@@ -47,6 +47,8 @@ export default {
         { id: 44, nazev: "Pistole na malování", kategorie: 4, majitel: 2, mesto: "Brno", cena: "20", images: "naradi/pistole.jpg", popis: "V případě zapůjčení na více dnů, cena v jednání." },
         { id: 45, nazev: "Pila", kategorie: 4, majitel: 4, mesto: "Plzen", cena: "25", images: "naradi/pila.jpg", popis: "V případě zapůjčení na více dnů, cena v jednání." },
         { id: 46, nazev: "Bruska", kategorie: 4, majitel: 4, mesto: "Plzen", cena: "25", images: "naradi/bruska.jpg", popis: "V případě zapůjčení na více dnů, cena v jednání." },
+        { id: 47, nazev: "Prebalovaci pult", kategorie: 7, majitel: 3, mesto: "Ostrava", cena: "400", images: "pro_deti/pult.jpg", popis: "Prebalovaci pult je v dobrém stavu. V případě půjčení na více dnů je cena v jednání" },
+        { id: 48, nazev: "Kočarek", kategorie: 7, majitel: 3, mesto: "Ostrava", cena: "400", images: "pro_deti/kocarek.jpg", popis: "Kočarek je v dobrém stavu." },
     ],
 
     majitel: [
