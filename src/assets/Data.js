@@ -41,6 +41,8 @@ export default {
         { id: 38, nazev: "sekačka", kategorie: 9, majitel: 2, mesto: "Brno", cena: "400", images: "stroje/sekacka.jpg", popis: "Sekačka je v dobrém stavu. V případě půjčení na více dnů je cena v jednání" },
         { id: 39, nazev: "kolotoč", kategorie: 7, majitel: 3, mesto: "Ostrava", cena: "400", images: "pro_deti/kolotoc.jpg", popis: "Kolotoč je v dobrém stavu. V případě půjčení na více dnů je cena v jednání" },
         { id: 40, nazev: "vanička", kategorie: 7, majitel: 3, mesto: "Ostrava", cena: "400", images: "pro_deti/vanicka.jpg", popis: "Vanička je v dobrém stavu." },
+        { id: 41, nazev: "Zahradní nábytek", kategorie: 2, majitel: 1, mesto: "Praha", cena: "100", images: "domacnost/zahradniSet.jpg", popis: "Lze zapůjčit 1 - 4 židle, dle potřeby. Novy ze dřeva, dobrý stav." },
+        { id: 42, nazev: "Zahradní houpačka", kategorie: 2, majitel: 3, mesto: "Ostrava", cena: "200", images: "domacnost/houpacka.jpg", popis: "V případě zapůjčení na více dnů, cena v jednání." },
     ],
 
     majitel: [
