@@ -54,7 +54,7 @@ export default {
 };
 </script>
 <style>
-/* .v-card img {
+.v-card img {
   width: 100%;
-} */
+}
 </style>

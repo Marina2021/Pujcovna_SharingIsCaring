@@ -31,4 +31,7 @@ export default {
 </script>
 
 <style>
+.v-card img {
+  width: 100%;
+}
 </style>
