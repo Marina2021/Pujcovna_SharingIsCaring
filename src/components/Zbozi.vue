@@ -2,14 +2,14 @@
   <div class="col-6">
     <v-card v-on:click="click">
       <img
-        class="sm-white--text align-end obrazek"
+        class="white--text align-end obrazek"
         height="200px"
         v-bind:src="`/fotky_projekt_DA/${produkt.images}`"
       />
 
-      <v-card-title class="sm-headline" v-text="produkt.nazev"></v-card-title>
+      <v-card-title class="headline" v-text="produkt.nazev"></v-card-title>
 
-      <v-card-text class="sm-text--primary">
+      <v-card-text class="text--primary">
         <div>{{produkt.cena}} Kč/den</div>
 
         <div>{{produkt.mesto}}</div>
