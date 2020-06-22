@@ -2,15 +2,15 @@ export default {
     
     products: [
         { id: 1, nazev: "Audi", kategorie: 1, majitel: 1, mesto: "Praha", cena: "800", images: "auto_moto/audi.jpg", popis: "V dobrém stavu, garážované. Pojištěno. Najeto 66 tis. km. Projedeme před zapůjčením." },
-        { id: 2, nazev: "BMW", kategorie: 1, majitel: 2, mesto: "Brno", cena: "100", images: "auto_moto/BMWBile.jpg", popis: "Najeto 59 tis. km. Projedeme před zapůjčením." },
-        { id: 3, nazev: "BMW", kategorie: 1, majitel: 1, mesto: "Praha", cena: "1200", images: "auto_moto/BMW.jpg", popis: "Najeto 40 tis. km. Projedeme před zapůjčením." },
+        { id: 2, nazev: "BMW", kategorie: 1, majitel: 2, mesto: "Brno", cena: "1000", images: "auto_moto/BMWBile.jpg", popis: "Najeto 59 tis. km. Projedeme před zapůjčením." },
+        { id: 3, nazev: "BMW", kategorie: 1, majitel: 1, mesto: "Praha", cena: "1200", images: "auto_moto/BMW.webp", popis: "Najeto 40 tis. km. Projedeme před zapůjčením." },
         { id: 4, nazev: "Vokswagen minibus", kategorie: 1, majitel: 2, mesto: "Brno", cena: "700", images: "auto_moto/volkswagen.jpg", popis: "najeto 77 tis. km. Projedeme před zapůjčením." },
         { id: 5, nazev: "Mercedes-Benz", kategorie: 1, majitel: 3, mesto: "Ostrava", cena: "900", images: "auto_moto/mercedes-benz.jpg", popis: "Najeto 57 tis. km. Projedeme před zapůjčením." },
         { id: 6, nazev: "Toyota", kategorie: 1, majitel: 4, mesto: "Plzen", cena: "1000", images: "auto_moto/toyota.png", popis: "Lorem Ipsum is simply dummy text of the printing and typesetting industry." },
         { id: 7, nazev: "Jeep", kategorie: 1, majitel: 5, mesto: "Olomouc", cena: "1500", images: "auto_moto/jeep.jpg", popis: "Najeto 62 tis. km. Projedeme před zapůjčením." },
         { id: 8, nazev: "Motorka", kategorie: 1, majitel: 1, mesto: "Praha", cena: "500", images: "auto_moto/moto.jpg", popis: "Automobil má 7 let. Garážovaný, v dobrém stavu. Najeto 80 tis. km." },
         { id: 9, nazev: "Motorka", kategorie: 1, majitel: 2, mesto: "Brno", cena: "600", images: "auto_moto/motoRR.jpg", popis: "Najeto 40tis km. Projedeme před zapůjčením." },
-        { id: 10, nazev: "Motorka", kategorie: 1, majitel: 3, mesto: "Ostrava", cena: "450", images: "auto_moto/motoCerne.jpg", popis: "Najeto 50 tis. km. Projedeme před zapůjčením" },
+        { id: 10, nazev: "Motorka", kategorie: 1, majitel: 3, mesto: "Ostrava", cena: "450", images: "auto_moto/motoModre.jpg", popis: "Najeto 50 tis. km. Projedeme před zapůjčením" },
         { id: 11, nazev: "Motorka", kategorie: 1, majitel: 4, mesto: "Plzen", cena: "700", images: "auto_moto/motoHonda.jpg", popis: "Honda má 5 let, najeto 60tis km. Projedeme před zapůjčením" },
         { id: 12, nazev: "postel", kategorie: 2, majitel: 3, mesto: "Ostrava", cena: "20", images: "domacnost/postel.jpg", popis: "V případě zapůjčení na více dnů, cena v jednání." },
         { id: 13, nazev: "skříň", kategorie: 2, majitel: 4, mesto: "Plzen", cena: "25", images: "domacnost/skrin.jpg", popis: "V případě zapůjčení na více dnů, cena v jednání." },
