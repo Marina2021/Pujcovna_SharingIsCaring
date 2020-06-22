@@ -4,7 +4,7 @@
       v-model="name"
       :error-messages="nameErrors"
       :counter="10"
-      label="Name"
+      label="Jméno"
       required
     ></v-text-field>
     <v-text-field
@@ -31,7 +31,8 @@
 
 
     <v-card-actions class="d-flex justify-center">
-      <v-btn v-bind:disabled="!checkbox" v-on:click="odklikni" class="mr-4"  flat color="orange">Půjčit</v-btn>
+      <v-btn v-bind:disabled="!checkbox" v-on:click="odklikni" class="mr-4" flat color="orange">Půjčit</v-btn>
+      
     </v-card-actions>
   </v-form>
 </template>

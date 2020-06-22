@@ -8,7 +8,7 @@
           </v-avatar>
         </div>
         <div class="d-flex justify-center">
-          <v-card-title class="text" v-text="polozka.name"></v-card-title>
+          <v-card-title class="sm-text" v-text="polozka.name"></v-card-title>
         </div>
       </div>
     </v-card>
